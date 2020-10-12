@@ -1,0 +1,30 @@
+.edit-form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.edit-form > input {
+    border: 1px solid darkgray;
+    background-color: #15202B;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.edit-form > input::placeholder {
+    text-align: center;
+}
+
+.submit-edit {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2188E7;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+
+.submit-edit:hover {
+    background-color: whitesmoke;
+    color: #2188E7 !important;
+}

@@ -1,0 +1,44 @@
+.post-form {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #15202B;
+    height: 70px;
+    padding: 10px;
+    border-color: #eee #ddd #bbb;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.post-form > input {
+    border-radius: 20px;
+    width: 220px;
+    border: 1px solid darkgray;
+    background-color: #15202B;
+    color: whitesmoke;
+}
+
+.post-form > input::placeholder {
+    text-align: center;
+}
+
+.submit-post {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2188E7;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    margin: 5px;
+}
+
+.submit-post:hover{
+    background-color: whitesmoke;
+    color: #2188E7 !important;
+    
+}
+
